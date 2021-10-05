@@ -87,7 +87,42 @@ function App() {
     },
   ];
   const quizListTranslate = [
-    { correctAnswer: 3, question: "1+2=", a: 1, b: 3, c: 2 },
+    {
+      correctAnswer: "To be very angry ",
+      question: "to see red ",
+      a: "To see s.o/sth you love",
+      b: "To see a red thing",
+      c: "To be very angry ",
+    },
+    {
+      correctAnswer: "To feel sad",
+      question: "to feel blue ",
+      a: "To feel sick",
+      b: "To feel sad",
+      c: "To feel anger",
+    },
+    {
+      correctAnswer: "arrive",
+      question: "I’ll cal you AS SOON AS I … ",
+      a: "have arrived ",
+      b: "will arrive ",
+      c: "arrive",
+    },
+    {
+      correctAnswer: "were",
+      question: "If I ….. you , I would never let him go ",
+      a: "am",
+      b: "were",
+      c: "will be",
+    },
+    {
+      correctAnswer:
+        "refers to how words go together or form fixed relationships",
+      question: "Collocation in translation ",
+      a: "refers to how words go together or form fixed relationships",
+      b: "refers to a good translation",
+      c: "refers to how words are meaningless ",
+    },
   ];
 
   return (
