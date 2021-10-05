@@ -1,0 +1,39 @@
+.quiz-box {
+  width: 700px;
+  height: 400px;
+}
+.question {
+  padding: 15px 45px;
+  border-radius: 10px;
+  font-size: 37px;
+  background: #2d82b5;
+  color: #fff;
+}
+.response-list {
+  list-style: none;
+  padding: 16px 82px;
+}
+.response {
+  font-size: 30px;
+  margin: 21px 0;
+  padding: 2% 7%;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #53a7db, #2d82b5, #015c92);
+  box-shadow: 0 0 15px #000;
+  transition: 0.25s;
+  color: #fff;
+  cursor: pointer;
+}
+.response:hover {
+  box-shadow: 0 0 15px #000;
+  transform: translateX(10%);
+}
+.correct {
+  background: green;
+}
+.incorrect {
+  background: red;
+}
+.disabled {
+  pointer-events: none;
+}
