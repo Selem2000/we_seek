@@ -9,9 +9,78 @@ import NavBar from "./components/NavBar/NavBar";
 
 function App() {
   const quizListInformatique = [
-    { correctAnswer: 3, question: "1+2=", a: 1, b: 3, c: 2 },
-    { correctAnswer: 4, question: "1+3=", a: 4, b: 3, c: 2 },
-    { correctAnswer: 5, question: "1+4=", a: 1, b: 3, c: 5 },
+    {
+      correctAnswer: 1024,
+      question: "How many bytes are in a KB (kilobyte)?",
+      a: 1000,
+      b: 2048,
+      c: 1024,
+    },
+    {
+      correctAnswer: "A set of steps of how to resolve a certain problem.",
+      question: "An algorithm is",
+      a: "A programming language",
+      b: "A set of steps of how to resolve a certain problem",
+      c: "A program",
+    },
+    {
+      correctAnswer: "a:=5",
+      question:
+        "Select the correct form of assignment to an integer variable a",
+      a: "a:5",
+      b: "a=5",
+      c: "a:=5",
+    },
+    {
+      correctAnswer: "Relational",
+      question: "What is the type of this operation : 5<=4",
+      a: "Arithmetic",
+      b: "Relational",
+      c: "Boolean",
+    },
+    {
+      correctAnswer: "CPU",
+      question: "The brain of any computer system is",
+      a: "CPU",
+      b: "ALU",
+      c: "RAM",
+    },
+    {
+      correctAnswer: "Assembler",
+      question:
+        "A program that converts assembly language to machine language is called",
+      a: "Compiler",
+      b: "Interpreter",
+      c: "Assembler",
+    },
+    {
+      correctAnswer: "American standard code for information interchange",
+      question: "ASCII means",
+      a: "American security code for information interchange",
+      b: "American standard code for information interchange",
+      c: "American Scientific code for information interchange",
+    },
+    {
+      correctAnswer: "ROM",
+      question: "Which of the following memories is non-volatile",
+      a: "ROM",
+      b: "DRAM",
+      c: "RAM",
+    },
+    {
+      correctAnswer: "Bug",
+      question: "An error is also called",
+      a: "Bug",
+      b: "DeBug",
+      c: "None of the above is true",
+    },
+    {
+      correctAnswer: "Graphical User Interface",
+      question: "GUI means",
+      a: "Graphical User Interface",
+      b: "Graphical Universal Interface",
+      c: "Graphical Unique Interface",
+    },
   ];
   const quizListEnglish = [
     {

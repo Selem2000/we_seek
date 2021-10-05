@@ -50,7 +50,7 @@ export default function Result({ points }) {
       >
         <Box sx={style}>
           <h1 style={{ margin: "5px" }}>
-            {points <= 5 ? "Sorry!" : "Congratulation"}
+            {points <= 4 ? "Sorry!" : "Congratulation"}
           </h1>
           <h3 style={{ margin: "5px" }}>{`you got ${points}`}</h3>
           <Link to="/" style={{ textDecoration: "none", margin: "1%" }}>
